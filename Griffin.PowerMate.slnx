@@ -1,0 +1,19 @@
+<Solution>
+  <Folder Name="/Plugins/" />
+  <Folder Name="/Plugins/Actions/">
+    <Project Path="src/iTunesActions/Griffin.PowerMate.iTunesActions.csproj" />
+    <Project Path="src/MouseActions/Griffin.PowerMate.MouseActions.csproj" />
+    <Project Path="src/OpenActions/Griffin.PowerMate.OpenActions.csproj" />
+    <Project Path="src/PowerActions/Griffin.PowerMate.PowerActions.csproj" />
+    <Project Path="src/ScrollActions/Griffin.PowerMate.ScrollActions.csproj" />
+    <Project Path="src/SendKeysActions/Griffin.PowerMate.SendKeysActions.csproj" />
+    <Project Path="src/VolumeActions/Griffin.PowerMate.VolumeActions.csproj" />
+  </Folder>
+  <Folder Name="/Plugins/UI/">
+    <Project Path="src/EditorUI/Griffin.PowerMate.EditorUI.csproj" />
+    <Project Path="src/StartupUI/Griffin.PowerMate.StartupUI.csproj" />
+    <Project Path="src/UpdaterUI/Griffin.PowerMate.UpdaterUI.csproj" />
+  </Folder>
+  <Project Path="src/PowerMate/Griffin.PowerMate.PowerMate.csproj" />
+  <Project Path="src/PowerMateLib/Griffin.PowerMate.PowerMateLib.csproj" />
+</Solution>

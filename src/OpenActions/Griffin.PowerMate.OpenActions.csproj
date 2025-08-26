@@ -1,0 +1,34 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+	<PropertyGroup>
+		<AssemblyName>OpenActions</AssemblyName>
+		<GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+		<UseWindowsForms>True</UseWindowsForms>
+		<TargetFramework>net48</TargetFramework>
+		<LangVersion>12.0</LangVersion>
+		<AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\PowerMateLib\Griffin.PowerMate.PowerMateLib.csproj" />
+		<ProjectReference Include="..\PowerMate\Griffin.PowerMate.PowerMate.csproj" />
+	</ItemGroup>
+
+	<!-- Copy output (DLL + PDB) to PowerMate's Plugins folder -->
+	<Target Name="PostBuild" AfterTargets="Build">
+		<!-- Compute destination plugin directory -->
+		<PropertyGroup>
+			<!-- MSBuildThisFileDirectory ends with a backslash -->
+			<PluginDir>$(MSBuildThisFileDirectory)..\PowerMate\bin\$(Configuration)\$(TargetFramework)\Plugins</PluginDir>
+		</PropertyGroup>
+
+		<MakeDir Directories="$(PluginDir)" />
+
+		<!-- Copy DLL -->
+		<Copy SourceFiles="$(TargetPath)" DestinationFolder="$(PluginDir)" SkipUnchangedFiles="true" />
+
+		<!-- Copy PDB if it exists -->
+		<Copy SourceFiles="$(TargetDir)$(TargetName).pdb" DestinationFolder="$(PluginDir)" Condition="Exists('$(TargetDir)$(TargetName).pdb')" SkipUnchangedFiles="true" />
+	</Target>
+
+</Project>
