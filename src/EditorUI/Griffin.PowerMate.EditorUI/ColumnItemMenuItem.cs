@@ -1,3 +1,4 @@
+using System.ComponentModel;
 using System.Drawing;
 using System.Windows.Forms;
 
@@ -17,6 +18,7 @@ internal class ColumnItemMenuItem : ToolStripMenuItem
 
 	private ColumnItemHandler UpdateImage;
 
+	[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 	public IColumnItem ColumnItem
 	{
 		get

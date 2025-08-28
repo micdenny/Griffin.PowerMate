@@ -1,4 +1,5 @@
 using System;
+using System.ComponentModel;
 using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.Windows.Forms;
@@ -27,6 +28,7 @@ internal class MenuBox3 : Button
 
 	public ToolStripItemCollection Items => DropDown.Items;
 
+	[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 	public ToolStripMenuItem SelectedItem
 	{
 		get
@@ -53,6 +55,7 @@ internal class MenuBox3 : Button
 		}
 	}
 
+	[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 	public new Image Image
 	{
 		get

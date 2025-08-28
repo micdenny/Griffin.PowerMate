@@ -128,6 +128,7 @@ internal class PowerMateEditor : Form
 
 	private PowerMateDoc OriginalPMDoc;
 
+	[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 	public Font HeaderFont
 	{
 		get
@@ -142,6 +143,7 @@ internal class PowerMateEditor : Form
 		}
 	}
 
+	[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 	public Color HeaderColor
 	{
 		get
@@ -156,6 +158,7 @@ internal class PowerMateEditor : Form
 		}
 	}
 
+	[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 	public int RowHeight
 	{
 		get
@@ -170,6 +173,7 @@ internal class PowerMateEditor : Form
 		}
 	}
 
+	[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 	public PowerMateDoc PowerMateDoc
 	{
 		set
@@ -182,6 +186,7 @@ internal class PowerMateEditor : Form
 		}
 	}
 
+	[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 	public AppCollection DefaultAppNodes
 	{
 		set

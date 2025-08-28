@@ -27,6 +27,7 @@ internal class ActionsHeaderColumns : UserControl
 
 	private CActionColumnItem.NodeChangeHandler RemoveNode;
 
+	[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 	public Font HeaderFont
 	{
 		get
@@ -41,6 +42,7 @@ internal class ActionsHeaderColumns : UserControl
 		}
 	}
 
+	[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 	public Color HeaderColor
 	{
 		get
@@ -55,6 +57,7 @@ internal class ActionsHeaderColumns : UserControl
 		}
 	}
 
+	[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 	public Color BorderColor
 	{
 		get
@@ -69,6 +72,7 @@ internal class ActionsHeaderColumns : UserControl
 		}
 	}
 
+	[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 	public int RowHeight
 	{
 		get
@@ -83,6 +87,7 @@ internal class ActionsHeaderColumns : UserControl
 		}
 	}
 
+	[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 	public Color SelectRowColor
 	{
 		get
@@ -101,6 +106,7 @@ internal class ActionsHeaderColumns : UserControl
 		}
 	}
 
+	[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 	public Color HideSelectRowColor
 	{
 		get
@@ -129,6 +135,7 @@ internal class ActionsHeaderColumns : UserControl
 		}
 	}
 
+	[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 	public AppNode Application
 	{
 		set

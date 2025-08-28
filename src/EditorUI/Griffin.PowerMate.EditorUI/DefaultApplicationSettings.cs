@@ -19,6 +19,7 @@ internal class DefaultApplicationSettings : Form
 
 	private DeviceNode _DefaultAppNodes = new DeviceNode();
 
+	[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 	public AppCollection DefaultAppNodes
 	{
 		set

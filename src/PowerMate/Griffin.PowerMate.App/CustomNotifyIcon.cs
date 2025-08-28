@@ -348,6 +348,7 @@ internal class CustomNotifyIcon : Component
 
 	private bool IsDisposed;
 
+	[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 	public Icon Icon
 	{
 		get
@@ -374,6 +375,7 @@ internal class CustomNotifyIcon : Component
 		}
 	}
 
+	[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 	public string Text
 	{
 		get
@@ -406,6 +408,7 @@ internal class CustomNotifyIcon : Component
 		}
 	}
 
+	[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 	public bool Visible
 	{
 		get
@@ -432,6 +435,7 @@ internal class CustomNotifyIcon : Component
 		}
 	}
 
+	[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 	public ContextMenuStrip ContextMenuStrip
 	{
 		get

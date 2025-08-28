@@ -18,6 +18,7 @@ public class OpenPanel : Panel, IPMActionPanel
 
 	private OpenFileDialog BrowseFileDialog;
 
+	[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 	public string[] Settings
 	{
 		get

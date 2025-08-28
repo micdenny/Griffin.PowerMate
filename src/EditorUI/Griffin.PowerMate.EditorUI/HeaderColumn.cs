@@ -22,6 +22,7 @@ internal class HeaderColumn : UserControl
 	private Column ItemPanel;
 
 	[Browsable(true)]
+	[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 	public ColumnType Type
 	{
 		get
@@ -34,6 +35,7 @@ internal class HeaderColumn : UserControl
 		}
 	}
 
+	[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 	public ContentAlignment ItemAlignment
 	{
 		get
@@ -46,6 +48,7 @@ internal class HeaderColumn : UserControl
 		}
 	}
 
+	[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 	public bool DrawBorder
 	{
 		get
@@ -63,6 +66,7 @@ internal class HeaderColumn : UserControl
 		}
 	}
 
+	[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 	public Color BorderColor
 	{
 		get
@@ -76,6 +80,7 @@ internal class HeaderColumn : UserControl
 		}
 	}
 
+	[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 	public int BorderThickness
 	{
 		get
@@ -90,6 +95,7 @@ internal class HeaderColumn : UserControl
 		}
 	}
 
+	[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 	public Bitmap HeaderImage
 	{
 		get
@@ -105,6 +111,7 @@ internal class HeaderColumn : UserControl
 		}
 	}
 
+	[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 	public ImageLayout HeaderImageLayout
 	{
 		get
@@ -117,6 +124,7 @@ internal class HeaderColumn : UserControl
 		}
 	}
 
+	[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 	public string HeaderText
 	{
 		get
@@ -129,6 +137,7 @@ internal class HeaderColumn : UserControl
 		}
 	}
 
+	[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 	public ContentAlignment HeaderAlignment
 	{
 		get
@@ -141,6 +150,7 @@ internal class HeaderColumn : UserControl
 		}
 	}
 
+	[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 	public Font HeaderFont
 	{
 		get
@@ -153,6 +163,7 @@ internal class HeaderColumn : UserControl
 		}
 	}
 
+	[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 	public Color HeaderColor
 	{
 		get
@@ -165,6 +176,7 @@ internal class HeaderColumn : UserControl
 		}
 	}
 
+	[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 	public int RowHeight
 	{
 		get
@@ -177,6 +189,7 @@ internal class HeaderColumn : UserControl
 		}
 	}
 
+	[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 	public int RowSpacing
 	{
 		get
@@ -189,6 +202,7 @@ internal class HeaderColumn : UserControl
 		}
 	}
 
+	[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 	public int Indent
 	{
 		get
@@ -201,6 +215,7 @@ internal class HeaderColumn : UserControl
 		}
 	}
 
+	[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 	public int IconTextSpace
 	{
 		get
@@ -213,6 +228,7 @@ internal class HeaderColumn : UserControl
 		}
 	}
 
+	[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 	public bool MultiSelect
 	{
 		get
@@ -225,6 +241,7 @@ internal class HeaderColumn : UserControl
 		}
 	}
 
+	[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 	public bool AlternateRowColor
 	{
 		get
@@ -237,6 +254,7 @@ internal class HeaderColumn : UserControl
 		}
 	}
 
+	[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 	public Color AltBackColor
 	{
 		get
@@ -249,6 +267,7 @@ internal class HeaderColumn : UserControl
 		}
 	}
 
+	[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 	public Color SelectRowColor
 	{
 		get
@@ -261,6 +280,7 @@ internal class HeaderColumn : UserControl
 		}
 	}
 
+	[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 	public bool HideSelection
 	{
 		get
@@ -273,6 +293,7 @@ internal class HeaderColumn : UserControl
 		}
 	}
 
+	[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 	public Color HideSelectRowColor
 	{
 		get
@@ -285,6 +306,7 @@ internal class HeaderColumn : UserControl
 		}
 	}
 
+	[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 	public Color SelectForeColor
 	{
 		get
@@ -297,6 +319,7 @@ internal class HeaderColumn : UserControl
 		}
 	}
 
+	[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 	public bool DrawRowLines
 	{
 		get
@@ -309,6 +332,7 @@ internal class HeaderColumn : UserControl
 		}
 	}
 
+	[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 	public Color RowLinesColor
 	{
 		get
@@ -321,6 +345,7 @@ internal class HeaderColumn : UserControl
 		}
 	}
 
+	[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 	public bool TextEdit
 	{
 		get
@@ -333,6 +358,7 @@ internal class HeaderColumn : UserControl
 		}
 	}
 
+	[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 	public bool SelectionOutline
 	{
 		get

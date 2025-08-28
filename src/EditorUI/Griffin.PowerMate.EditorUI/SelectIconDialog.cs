@@ -26,6 +26,7 @@ internal class SelectIconDialog : Form
 
 	private IconSelector IconSelector;
 
+	[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 	public string IconFile
 	{
 		get

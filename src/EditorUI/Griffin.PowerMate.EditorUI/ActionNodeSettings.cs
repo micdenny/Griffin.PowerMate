@@ -39,6 +39,7 @@ internal class ActionNodeSettings : UserControl
 
 	private int NonActiveMessagePadding = 5;
 
+	[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 	public IPMActionPlugin[] Plugins
 	{
 		set
@@ -67,6 +68,7 @@ internal class ActionNodeSettings : UserControl
 		}
 	}
 
+	[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 	public ActionNode Action
 	{
 		set
@@ -92,6 +94,7 @@ internal class ActionNodeSettings : UserControl
 		}
 	}
 
+	[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 	public uint Sensitivity
 	{
 		get
@@ -137,6 +140,7 @@ internal class ActionNodeSettings : UserControl
 		}
 	}
 
+	[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 	public bool Active
 	{
 		set

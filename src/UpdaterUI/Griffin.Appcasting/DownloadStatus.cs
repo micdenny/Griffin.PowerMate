@@ -48,6 +48,7 @@ public class DownloadStatus : Form
 
 	private EventHandler<AppcastUpdaterDownloadEventArgs> DownloadCancelledHandler;
 
+	[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 	public AppcastUpdater AppcastUpdater
 	{
 		get
@@ -79,6 +80,7 @@ public class DownloadStatus : Form
 		}
 	}
 
+	[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 	public string ApplicationName
 	{
 		get
@@ -92,6 +94,7 @@ public class DownloadStatus : Form
 		}
 	}
 
+	[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 	public Image Image
 	{
 		get
@@ -104,6 +107,7 @@ public class DownloadStatus : Form
 		}
 	}
 
+	[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 	public DownloadCompletePrompt DownloadCompletePrompt
 	{
 		get

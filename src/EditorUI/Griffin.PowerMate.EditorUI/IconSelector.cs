@@ -24,6 +24,7 @@ internal class IconSelector : UserControl
 
 	private VScrollBar VerticalScrollBar;
 
+	[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 	public int IconPadding
 	{
 		get
@@ -45,6 +46,7 @@ internal class IconSelector : UserControl
 		}
 	}
 
+	[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 	public int IconSize
 	{
 		get
@@ -68,6 +70,7 @@ internal class IconSelector : UserControl
 
 	public IconList Icons => _Icons;
 
+	[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 	public Icon SelectedIcon
 	{
 		get
@@ -85,6 +88,7 @@ internal class IconSelector : UserControl
 		}
 	}
 
+	[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 	public int SelectedIconIndex
 	{
 		get
@@ -105,6 +109,7 @@ internal class IconSelector : UserControl
 		}
 	}
 
+	[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 	public new Size ClientSize
 	{
 		get

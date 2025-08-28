@@ -19,6 +19,7 @@ public class SendKeysPanel : Panel, IPMActionPanel
 
 	private string UndoKeysString;
 
+	[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 	public string[] Settings
 	{
 		get

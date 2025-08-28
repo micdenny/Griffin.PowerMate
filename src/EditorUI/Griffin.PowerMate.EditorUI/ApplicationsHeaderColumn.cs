@@ -1,4 +1,5 @@
 using System;
+using System.ComponentModel;
 using System.Drawing;
 using System.Windows.Forms;
 using Griffin.PowerMate.App;
@@ -19,6 +20,7 @@ internal class ApplicationsHeaderColumn : HeaderColumn
 
 	private EventHandler<NodeContainerEventArgs<AppNode>> ApplicationReplaced;
 
+	[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 	public DeviceNode Device
 	{
 		set

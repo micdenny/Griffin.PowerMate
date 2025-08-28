@@ -39,6 +39,7 @@ public class UpdateDialog : Form
 
 	public new UpdateDialogResult DialogResult => _DialogResult;
 
+	[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 	public AppcastItem Item
 	{
 		get
@@ -71,6 +72,7 @@ public class UpdateDialog : Form
 		}
 	}
 
+	[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 	public string CurrentVersion
 	{
 		get
@@ -84,6 +86,7 @@ public class UpdateDialog : Form
 		}
 	}
 
+	[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 	public string CurrentBuild
 	{
 		get
@@ -97,6 +100,7 @@ public class UpdateDialog : Form
 		}
 	}
 
+	[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 	public string ApplicationName
 	{
 		get
@@ -111,6 +115,7 @@ public class UpdateDialog : Form
 		}
 	}
 
+	[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 	public string Caption
 	{
 		get
@@ -123,6 +128,7 @@ public class UpdateDialog : Form
 		}
 	}
 
+	[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 	public Image Image
 	{
 		get

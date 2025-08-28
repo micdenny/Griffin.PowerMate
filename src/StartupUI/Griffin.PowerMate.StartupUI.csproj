@@ -4,7 +4,7 @@
 		<AssemblyName>StartupUI</AssemblyName>
 		<GenerateAssemblyInfo>False</GenerateAssemblyInfo>
 		<UseWindowsForms>True</UseWindowsForms>
-		<TargetFramework>net48</TargetFramework>
+		<TargetFramework>net9-windows</TargetFramework>
 	</PropertyGroup>
 
 	<PropertyGroup>

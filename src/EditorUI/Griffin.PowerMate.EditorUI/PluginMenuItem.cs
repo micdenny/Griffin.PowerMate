@@ -1,3 +1,4 @@
+using System.ComponentModel;
 using System.Drawing;
 using System.Windows.Forms;
 using Griffin.PowerMate.App;
@@ -30,6 +31,7 @@ internal class PluginMenuItem : ToolStripMenuItem
 
 	public override Image Image => PluginImage;
 
+	[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 	public bool Shown
 	{
 		get
@@ -46,6 +48,7 @@ internal class PluginMenuItem : ToolStripMenuItem
 		}
 	}
 
+	[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 	public new bool Visible
 	{
 		get

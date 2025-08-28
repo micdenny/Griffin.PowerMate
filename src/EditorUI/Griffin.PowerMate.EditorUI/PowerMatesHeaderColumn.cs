@@ -1,4 +1,5 @@
 using System;
+using System.ComponentModel;
 using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.Timers;
@@ -35,6 +36,7 @@ internal class PowerMatesHeaderColumn : HeaderColumn
 
 	private SaveFileDialog ExportPowerMates;
 
+	[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 	public PowerMateDoc PmDoc
 	{
 		set

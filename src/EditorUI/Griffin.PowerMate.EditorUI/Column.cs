@@ -73,6 +73,7 @@ internal class Column : UserControl
 	private TextBox ChangeText;
 
 	[Browsable(true)]
+	[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 	public ColumnType Type
 	{
 		get
@@ -86,6 +87,7 @@ internal class Column : UserControl
 		}
 	}
 
+	[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 	public int RowHeight
 	{
 		get
@@ -103,6 +105,7 @@ internal class Column : UserControl
 		}
 	}
 
+	[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 	public bool MultiSelect
 	{
 		get
@@ -119,6 +122,7 @@ internal class Column : UserControl
 		}
 	}
 
+	[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 	public bool AlternateRowColor
 	{
 		get
@@ -132,6 +136,7 @@ internal class Column : UserControl
 		}
 	}
 
+	[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 	public Color AltBackColor
 	{
 		get
@@ -145,6 +150,7 @@ internal class Column : UserControl
 		}
 	}
 
+	[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 	public Color SelectRowColor
 	{
 		get
@@ -158,6 +164,7 @@ internal class Column : UserControl
 		}
 	}
 
+	[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 	public bool HideSelection
 	{
 		get
@@ -171,6 +178,7 @@ internal class Column : UserControl
 		}
 	}
 
+	[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 	public Color HideSelectRowColor
 	{
 		get
@@ -184,6 +192,7 @@ internal class Column : UserControl
 		}
 	}
 
+	[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 	public Color SelectForeColor
 	{
 		get
@@ -197,6 +206,7 @@ internal class Column : UserControl
 		}
 	}
 
+	[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 	public bool DrawRowLines
 	{
 		get
@@ -210,6 +220,7 @@ internal class Column : UserControl
 		}
 	}
 
+	[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 	public Color RowLinesColor
 	{
 		get
@@ -223,6 +234,7 @@ internal class Column : UserControl
 		}
 	}
 
+	[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 	public ContentAlignment ItemAlignment
 	{
 		get
@@ -236,6 +248,7 @@ internal class Column : UserControl
 		}
 	}
 
+	[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 	public int RowSpacing
 	{
 		get
@@ -249,6 +262,7 @@ internal class Column : UserControl
 		}
 	}
 
+	[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 	public int Indent
 	{
 		get
@@ -262,6 +276,7 @@ internal class Column : UserControl
 		}
 	}
 
+	[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 	public int IconTextSpace
 	{
 		get
@@ -275,6 +290,7 @@ internal class Column : UserControl
 		}
 	}
 
+	[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 	public bool SelectionOutline
 	{
 		get
@@ -295,6 +311,7 @@ internal class Column : UserControl
 
 	public ColumnItemCollection SelectedItems => ColumnItems.SelectedItems;
 
+	[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 	public Point Offset
 	{
 		get
@@ -316,6 +333,7 @@ internal class Column : UserControl
 
 	public int CurrentIndex => myCurrentIndex;
 
+	[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 	public bool TextEdit
 	{
 		get
@@ -332,6 +350,7 @@ internal class Column : UserControl
 		}
 	}
 
+	[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
 	public bool AllowDrag
 	{
 		get
